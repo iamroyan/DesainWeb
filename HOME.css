@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding: 5px 0;
+    background-color: #00DFA9;
+
+}
+.medsos ul li{
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+header h1{
+    float: left;
+    color: #15293E;
+    padding-top: 10px
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 18px 20px;
+    display: inline-block;
+}
+header ul li :hover{
+    background: #15293E;
+    color: white;
+}
+.aktif{
+    background: #15293E;
+    color: white;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+}
+.content .par{
+    padding-left: 20px;
+    letter-spacing: 0,3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+.backround{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(baner1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+
+}
+.content{
+    padding-left: 20px;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content .par{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    padding-top: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+.content .cn {
+    width: 150px;
+    height: 40px;
+    background: #00DFA9;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0,5s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: #15293E;
+    transition: 3s ease;
+}
+.cn:hover{
+    background-color: white;
+}
+.content span{
+    color: #00DFA9;
+    font-size: 6px;
+    
+}
+.form{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top, rgba(21, 41, 62, 0.8)50%, rgba(21, 41, 62, 0.8)50%);
+    position: absolute;
+    top: 60px;
+    left: 930px;
+    border-radius: 4px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #15293E;
+    font-size: 22px;
+    background-color: #00DFA9;
+    border-radius: 4px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #00DFA9;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form input :focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: #00DFA9;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+.btn:hover{
+    background: white;
+    color: #ffffff;
+}
+.btn a{
+    text-decoration: none;
+    color: #15293E;
+    font-weight: bold
+}
+.form .link{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.about{
+    padding: 50px 0;
+}
+.about{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 50px 0;
+    padding-bottom: 50px;
+    color: #15293E;
+}
+.about p{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: #15293E;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+footer{
+    padding: 15px 0;
+    background-color: #15293E;
+    color: #fff;
+    text-align: center;
+}
